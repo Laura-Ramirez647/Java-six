@@ -1,0 +1,75 @@
+.parent{
+    width: 600px;
+    height: 350px;
+    margin: 0 auto;
+    background-color: white;
+    font-family: Arial;
+    box-shadow: 4px 4px 4px 4px rgb(230, 229, 229);
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+.title{
+    text-align: center;
+}
+
+.button{
+    width: 98px;
+    height: 30px;
+    background-color: rgb(40, 211, 40);
+    color: white;
+    border: 1px solid rgb(47, 212, 47);
+    display: block;
+    border-radius: 3px;
+    margin-top: 22px;
+    margin-left: 25px;
+}
+.line{
+    width: 550px;
+    height: 2px;
+    background-color: rgb(240, 240, 240);
+    margin: 0 auto;
+    margin-top: 5px;
+}
+label{
+    margin-left: 25px;
+}
+.cart{
+    text-align: center;
+    margin-top: 50px;
+}
+.childDiv{
+    display: inline-block;
+    display: flex;
+    justify-content:space-around;
+    margin-left: 22px;
+}
+.itemDiv{
+    display: inline-block;
+    display: flex;
+    justify-content:space-around;
+    border: 1px solid black;
+    width: 560px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.totalDisplay{
+    display: block;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.checkout-Button{
+    width: 98px;
+    height: 30px;
+    background-color: rgb(40, 211, 40);
+    color: white;
+    border: 1px solid rgb(47, 212, 47);
+    display: block;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.grandTotal{
+    padding-bottom: 40px;
+    margin-left: 20px;
+}
